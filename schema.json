@@ -1,0 +1,28 @@
+
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Arc Media Labs",
+    "url": "https://arcmedialabs.in",
+    "logo": "https://www.arcmedialabs.in/assets/custom_img/arc_media_logo.webp",
+    "sameAs": [
+      "https://www.facebook.com/share/1PsvqnpRCw/",
+      "https://x.com/arcmedialabs?t=c0du3R-RV4MWkD3VEifJug&s=09",
+      "https://www.linkedin.com/company/arc-media-lab",
+      "https://www.instagram.com/_arc_medialabs_official?igsh=MWxodnY0M2htNzc0aA=="
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91 7904308703",
+      "email": "arcmedialabs@gmail.com"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kandhasamy Vathiyar Street,Near BGR Hospital",
+      "addressLocality": "Dharmapuri",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "636 701",
+      "addressCountry": "India"
+    }
+  }
+  

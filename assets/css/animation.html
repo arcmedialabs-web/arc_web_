@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrix3D Animation Example</title>
+  <style>
+    body {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .box {
+      width: 120px;
+      height: 120px;
+      background-color: #4CAF50;
+      animation: animate-preloader 2s infinite alternate;
+    }
+
+    @keyframes animate-preloader {
+      0% {
+        transform: matrix3d(
+          1, 0, 0, 0,
+          0, 1, 0, 0,
+          0, 0, 1, 0,
+          0, 0, 0, 1
+        );
+      }
+
+      100% {
+        transform: matrix3d(
+          1, 0.3, 0, 0,
+          0.3, 1, 0, 0,
+          0, 0, 1, 0,
+          0, 0, 0, 1
+        );
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>

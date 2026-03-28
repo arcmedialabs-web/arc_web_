@@ -1,0 +1,4 @@
+bash
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^arcmedialabs.in [NC]
+RewriteRule ^(.*)$ https://www.arcmedialabs.in/$1 [R=301,L]
